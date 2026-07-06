@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Lumina</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container nav-content">
+            <a href="home.html" class="logo">Lumina.</a>
+            <nav class="nav-links">
+                <a href="home.html">Home</a>
+                <a href="index.html">Blogs</a>
+                <a href="#">Categories</a>
+                <a href="about.html">About</a>
+                <a href="contact.html" style="color: var(--accent);">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="fade-in" style="padding: var(--spacing-xl) 0; max-width: 800px; margin: 0 auto;">
+            <div style="text-align: center; margin-bottom: var(--spacing-lg);">
+                <h1>Get in Touch</h1>
+                <p style="color: var(--text-secondary); font-size: 1.2rem;">Have a question, collaboration idea, or just want to say hi? I'd love to hear from you.</p>
+            </div>
+
+            <div class="glass" style="padding: var(--spacing-xl);">
+                <div style="margin-bottom: var(--spacing-lg); text-align: center;">
+                    <p style="font-weight: 600; margin-bottom: var(--spacing-sm);">Email Me At:</p>
+                    <a href="mailto:hello@luminablog.com" style="color: var(--accent); font-size: 1.2rem;">hello@luminablog.com</a>
+                </div>
+                
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Your email address" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" placeholder="What is this regarding?" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="5" placeholder="Write your message here..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn" style="width: 100%;">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-col">
+                <h3 class="logo" style="margin-bottom: var(--spacing-sm);">Lumina.</h3>
+                <p style="color: var(--text-secondary); font-size: 0.9rem;">Empowering creators with insights for the modern web.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="index.html">Blogs</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Legal</h3>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Connect</h3>
+                <div class="social-icons">
+                    <a href="#" class="social-icon">Tw</a>
+                    <a href="#" class="social-icon">In</a>
+                    <a href="#" class="social-icon">Gh</a>
+                </div>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            &copy; 2026 Lumina Blog. All rights reserved.
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

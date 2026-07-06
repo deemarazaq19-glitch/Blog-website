@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs | Lumina</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container nav-content">
+            <a href="home.html" class="logo">Lumina.</a>
+            <nav class="nav-links">
+                <a href="home.html">Home</a>
+                <a href="index.html" style="color: var(--accent);">Blogs</a>
+                <a href="#">Categories</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section style="padding: var(--spacing-xl) 0; text-align: center;">
+            <h1>Latest Articles</h1>
+            <p style="color: var(--text-secondary); font-size: 1.2rem;">Thoughts, tutorials, and insights on modern web development.</p>
+        </section>
+
+        <section class="blog-grid" style="padding-top: 0;">
+            <!-- Article 1 -->
+            <article class="blog-card glass fade-in" onclick="window.location.href='post.html'">
+                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600&q=80" alt="Laptop code" class="blog-card-image">
+                <div class="blog-card-content">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: var(--spacing-sm);">
+                        <span class="blog-meta" style="margin-bottom: 0;">TECHNOLOGY • MAY 12</span>
+                        <span style="font-size: 0.8rem; color: var(--text-secondary);">By Alex</span>
+                    </div>
+                    <h2>The Future of Web Design</h2>
+                    <p>Discover how AI and new frameworks are shaping the next generation of web interfaces and user experiences.</p>
+                    <span class="btn" style="margin-top: auto; padding: 0.5rem 1rem; align-self: flex-start;">Read More</span>
+                </div>
+            </article>
+
+            <!-- Article 2 -->
+            <article class="blog-card glass fade-in" onclick="window.location.href='post.html'">
+                <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=600&q=80" alt="Code on screen" class="blog-card-image">
+                <div class="blog-card-content">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: var(--spacing-sm);">
+                        <span class="blog-meta" style="margin-bottom: 0;">DEVELOPMENT • MAY 08</span>
+                        <span style="font-size: 0.8rem; color: var(--text-secondary);">By Alex</span>
+                    </div>
+                    <h2>Mastering CSS Grid</h2>
+                    <p>A comprehensive guide to building complex, responsive layouts with CSS Grid without the headache.</p>
+                    <span class="btn" style="margin-top: auto; padding: 0.5rem 1rem; align-self: flex-start;">Read More</span>
+                </div>
+            </article>
+
+            <!-- Article 3 -->
+            <article class="blog-card glass fade-in" onclick="window.location.href='post.html'">
+                <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=600&q=80" alt="Retro setup" class="blog-card-image">
+                <div class="blog-card-content">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: var(--spacing-sm);">
+                        <span class="blog-meta" style="margin-bottom: 0;">DESIGN • APR 29</span>
+                        <span style="font-size: 0.8rem; color: var(--text-secondary);">By Alex</span>
+                    </div>
+                    <h2>Glassmorphism in 2026</h2>
+                    <p>Why translucent, frosted glass effects are making a massive comeback in modern UI design systems.</p>
+                    <span class="btn" style="margin-top: auto; padding: 0.5rem 1rem; align-self: flex-start;">Read More</span>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-col">
+                <h3 class="logo" style="margin-bottom: var(--spacing-sm);">Lumina.</h3>
+                <p style="color: var(--text-secondary); font-size: 0.9rem;">Empowering creators with insights for the modern web.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="index.html">Blogs</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Legal</h3>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Connect</h3>
+                <div class="social-icons">
+                    <a href="#" class="social-icon">Tw</a>
+                    <a href="#" class="social-icon">In</a>
+                    <a href="#" class="social-icon">Gh</a>
+                </div>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            &copy; 2026 Lumina Blog. All rights reserved.
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

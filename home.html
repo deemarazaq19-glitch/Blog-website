@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumina | Welcome</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container nav-content">
+            <a href="home.html" class="logo">Lumina.</a>
+            <nav class="nav-links">
+                <a href="home.html">Home</a>
+                <a href="index.html">Blogs</a>
+                <a href="#">Categories</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Hero Section -->
+        <section class="hero fade-in" style="padding-top: var(--spacing-xl); padding-bottom: var(--spacing-xl); min-height: 50vh; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+            <h1 style="font-size: 4rem; background: linear-gradient(to right, #38bdf8, #818cf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Elevate Your Web Experience</h1>
+            <p style="font-size: 1.5rem; max-width: 800px; margin-bottom: var(--spacing-lg);">Join a community of forward-thinking creators. Discover modern trends, master new frameworks, and build the future of the web.</p>
+            
+            <!-- Search Bar -->
+            <div class="search-container" style="width: 100%;">
+                <input type="text" placeholder="Search articles, tutorials, and more...">
+                <button class="btn">Search</button>
+            </div>
+        </section>
+
+        <!-- Categories -->
+        <section class="fade-in" style="margin-bottom: var(--spacing-xl);">
+            <h2 style="text-align: center; margin-bottom: var(--spacing-md);">Explore Topics</h2>
+            <div class="category-list">
+                <span class="tag">Web Development</span>
+                <span class="tag">Programming</span>
+                <span class="tag">AI</span>
+                <span class="tag">Career</span>
+                <span class="tag">University Life</span>
+                <span class="tag">Projects</span>
+            </div>
+        </section>
+
+        <!-- Featured Posts -->
+        <section class="fade-in" style="margin-bottom: var(--spacing-xl);">
+            <h2 style="text-align: center; margin-bottom: var(--spacing-lg);">Featured Posts</h2>
+            <div class="blog-grid" style="padding-top: 0;">
+                <article class="blog-card glass" onclick="window.location.href='post.html'">
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600&q=80" alt="Laptop code" class="blog-card-image">
+                    <div class="blog-card-content">
+                        <span class="blog-meta">TECHNOLOGY • MAY 12</span>
+                        <h3>The Future of Web Design</h3>
+                        <p>Discover how AI and new frameworks are shaping the next generation of web interfaces.</p>
+                        <span class="read-more">Read Article</span>
+                    </div>
+                </article>
+                <article class="blog-card glass" onclick="window.location.href='post.html'">
+                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=600&q=80" alt="Code on screen" class="blog-card-image">
+                    <div class="blog-card-content">
+                        <span class="blog-meta">DEVELOPMENT • MAY 08</span>
+                        <h3>Mastering CSS Grid</h3>
+                        <p>A comprehensive guide to building complex, responsive layouts with CSS Grid.</p>
+                        <span class="read-more">Read Article</span>
+                    </div>
+                </article>
+            </div>
+            <div style="text-align: center; margin-top: var(--spacing-md);">
+                <a href="index.html" class="btn btn-glass">View All Blogs</a>
+            </div>
+        </section>
+
+        <!-- Newsletter -->
+        <section class="glass fade-in" style="padding: var(--spacing-xl) var(--spacing-lg); text-align: center; max-width: 800px; margin: 0 auto var(--spacing-xl);">
+            <h2>Stay Updated</h2>
+            <p style="color: var(--text-secondary); margin-bottom: var(--spacing-md);">Subscribe to our newsletter to get the latest posts and resources delivered straight to your inbox.</p>
+            <form style="display: flex; gap: var(--spacing-sm); justify-content: center; max-width: 500px; margin: 0 auto;">
+                <input type="email" placeholder="Your email address" required style="flex-grow: 1;">
+                <button type="submit" class="btn">Subscribe</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-col">
+                <h3 class="logo" style="margin-bottom: var(--spacing-sm);">Lumina.</h3>
+                <p style="color: var(--text-secondary); font-size: 0.9rem;">Empowering creators with insights for the modern web.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="index.html">Blogs</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Legal</h3>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Connect</h3>
+                <div class="social-icons">
+                    <a href="#" class="social-icon">Tw</a>
+                    <a href="#" class="social-icon">In</a>
+                    <a href="#" class="social-icon">Gh</a>
+                </div>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            &copy; 2026 Lumina Blog. All rights reserved.
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
